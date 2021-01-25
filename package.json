@@ -1,0 +1,29 @@
+{
+  "name": "zbk-weather-api",
+  "version": "1.0.0",
+  "description": "A public API used to fetch weather data from ClimaCell. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlgoRen/ZBK-Weather-API.git"
+  },
+  "keywords": [
+    "Weather",
+    "ZBK",
+    "Data",
+    "API"
+  ],
+  "author": "Ren of CERNT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlgoRen/ZBK-Weather-API/issues"
+  },
+  "homepage": "https://github.com/AlgoRen/ZBK-Weather-API#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "unirest": "^0.6.0"
+  }
+}

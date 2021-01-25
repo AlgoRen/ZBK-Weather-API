@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  .container
+    h1 Welcome to #{title}
+    p
+      | Official ZBK API Weather Forecast Tool using ClimaCell API
+    br
+    br
+    .row
+      .col-md-6
+        form.form-inline(method="post", action="weather")
+          .form-group
+            label.sr-only(for="inputEmail") City Name 
+            label.form-control( name="city" type="text" placeholder="Enter City Name" required="required")
+          |
+          button.btn.btn-primary(type="submit") Fetch Weather
+        hr 
